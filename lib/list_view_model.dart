@@ -16,7 +16,11 @@ class ListModel {
 }
 
 // 창고
+<<<<<<< HEAD
 // 뷰모델 2개로 관리하기
+=======
+// 뷰모델 하나로 관리하기
+>>>>>>> 373755e97f99daebbe9c92d5c4f97800100716f7
 class ListViewModel extends StateNotifier<ListModel?> {
   ListViewModel(super.state);
 
